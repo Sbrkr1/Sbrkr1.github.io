@@ -1,0 +1,424 @@
+/* External Stylesheet for Personal Homepage */
+/* Assignment 1 - CSC 4370/6370 Web Programming */
+/* Clean, Modern Design - W3C Compliant */
+
+/* Rule 1: Base typography and layout */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f8f9fa;
+    color: #333333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Rule 2: Header styling */
+header {
+    background-color: white;
+    padding: 40px 30px;
+    margin-bottom: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+header:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+header h1 {
+    color: #2c3e50;
+    margin: 0 0 25px 0;
+    font-size: 2.4em;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+/* Rule 3: Profile section */
+.profile-section {
+    margin: 25px 0;
+}
+
+.profile-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #6c757d;
+    margin: 0 auto 20px auto;
+    display: block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo:hover {
+    border-color: #495057;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profile-section h2 {
+    margin: 15px 0;
+    color: #2c3e50;
+    font-size: 1.9em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.profile-section p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #6c757d;
+}
+
+/* Rule 4: Highlight class for special terms */
+.highlight {
+    color: #dc3545;
+    font-weight: 600;
+    padding: 1px 3px;
+    border-radius: 3px;
+    background-color: rgba(220, 53, 69, 0.1);
+}
+
+/* Rule 5: Navigation section */
+nav {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+nav h3 {
+    margin: 0 0 25px 0;
+    color: #2c3e50;
+    font-size: 1.6em;
+    font-weight: 500;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+
+/* Rule 6: Assignment code styling */
+.assignment-code {
+    font-weight: 700;
+    color: #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+/* Rule 7: Assignments table */
+.assignments-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.assignments-table td {
+    padding: 15px 18px;
+    border-bottom: 1px solid #f8f9fa;
+    transition: all 0.2s ease;
+}
+
+/* Rule 8: Zebra striping for table rows */
+.assignments-table tr:nth-child(odd) {
+    background-color: #fdfdfe;
+}
+
+.assignments-table tr:nth-child(even) {
+    background-color: white;
+}
+
+.assignments-table tr:hover {
+    background-color: #e3f2fd;
+    transform: translateX(3px);
+}
+
+.assignments-table tr:hover .assignment-code {
+    background-color: rgba(0, 123, 255, 0.2);
+    color: #0056b3;
+}
+
+/* Rule 9: Main content area */
+main {
+    background-color: white;
+    padding: 35px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Rule 10: Section styling */
+section {
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section h3 {
+    color: #2c3e50;
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+section h4 {
+    color: #495057;
+    margin: 25px 0 15px 0;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+/* Rule 11: List styling */
+ul {
+    padding-left: 28px;
+    margin: 18px 0;
+}
+
+ol {
+    padding-left: 28px;
+    margin: 18px 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    transition: all 0.2s ease;
+}
+
+ol li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    transition: all 0.2s ease;
+}
+
+ul li:hover {
+    color: #007bff;
+    padding-left: 5px;
+}
+
+ol li:hover {
+    color: #007bff;
+    padding-left: 5px;
+}
+
+/* Rule 12: Nested lists */
+ul ul {
+    margin: 10px 0;
+    padding-left: 25px;
+    border-left: 3px solid #e9ecef;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ol ul {
+    margin: 10px 0;
+    padding-left: 25px;
+    border-left: 3px solid #e9ecef;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Rule 13: Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    color: #0056b3;
+    border-bottom: 1px solid #007bff;
+}
+
+a:visited {
+    color: #6f42c1;
+}
+
+/* Rule 14: Quote section */
+.quote-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 30px;
+    margin: 30px 0;
+    border-left: 5px solid #6c757d;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.quote-section::before {
+    content: '"';
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 3em;
+    color: rgba(108, 117, 125, 0.3);
+    font-family: serif;
+}
+
+.quote-section blockquote {
+    margin: 0;
+    font-size: 1.2em;
+    color: #495057;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.quote-section cite {
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #6c757d;
+    font-size: 1em;
+}
+
+/* Rule 15: External links section */
+.external-links {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.external-links h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom-color: #17a2b8;
+}
+
+.external-links ul li {
+    background-color: white;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-left: 4px solid #17a2b8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.external-links ul li:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+/* Rule 16: Interests section */
+.interests h3 {
+    border-bottom-color: #28a745;
+}
+
+/* Rule 17: Nested lists section */
+.nested-lists h3 {
+    border-bottom-color: #28a745;
+}
+
+/* Rule 18: Footer (if added) */
+footer {
+    background: linear-gradient(135deg, #343a40 0%, #495057 100%);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+/* Rule 19: Responsive design for tablets */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    
+    header {
+        padding: 25px 20px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    .profile-photo {
+        width: 110px;
+        height: 110px;
+    }
+    
+    nav {
+        padding: 25px 20px;
+    }
+    
+    main {
+        padding: 25px 20px;
+    }
+}
+
+/* Rule 20: Responsive design for mobile */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 20px 15px;
+    }
+    
+    header h1 {
+        font-size: 1.8em;
+    }
+    
+    .profile-photo {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .profile-section h2 {
+        font-size: 1.6em;
+    }
+    
+    nav {
+        padding: 20px 15px;
+    }
+    
+    main {
+        padding: 20px 15px;
+    }
+    
+    section h3 {
+        font-size: 1.4em;
+    }
+    
+    .quote-section {
+        padding: 20px 15px;
+    }
+}
